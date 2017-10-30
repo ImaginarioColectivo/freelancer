@@ -1,44 +1,55 @@
-*{
-	padding: 0px;
+* {
+	box-sizing: border-box;
 	margin: 0px;
-	box-sizing: border-box;
+	border-box:auto;
 }
+
+
 /* caja general que contiene las demas cajas*/
+
+
 .general-container{ 
-	padding: 0px;
-	box-sizing: border-box;
 	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 0px;
+	padding-right: 0px;
 }
 /*caja del navegador del inicio*/
 .nav{
 	width: 100%;
 	height: 110px;
 	background-color: #333C53;
+	position: fixed;
 }
-/*START BOOTSTRAP*/
-.name{
+.navbar{
 	font-family: Montserrat;
-	font-style: normal;
-	font-weight: bold;
-	line-height: 110px;
-	padding-left:120px;
 	font-size: 32px;
-	color: #fff;	
+	style:normal;
+	font-weight: bold;
+	padding: 11px;
+	color: #fff;
+	border-color: #fff;
+	position: relative;
+	top: 34px;
+	left: 100px;
 }
+
 /*menu es ul*/
 .menu{
 	padding:0;
 	list-style: none;
 	display: inline-block;
 	float: right;
+	position: relative;
+	left: -147px;
+
 }
 
 .menu li{
 	display: inline-block;
-	padding-top: 35px;
-	padding-left: 35px;
-	
-
+	padding-top: 43px;
+	padding-left: 14px;
 }
 
 
@@ -51,20 +62,256 @@
 	font-style: normal;
 	font-weight: bold;
 	font-size: 16px;
-	line-height: 24px;
 	color: #fff;
-
 }
-
-
-
-
-
 
 .presentation-container{
 	width: 100%;
 	height: 690px;
 	background-color: #00C799;
+}
+.profile{
+	position: relative;
+	top: 90px;
+	left: 460px;
+}
+
+.name{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 76px;
+	color: #fff;
+	position: relative;
+	top: 194px;
+	right: 46px;
+}
+
+.star-light{
+	position: inline-block
+}
+
+.line{
+	height: 6px;
+	width: 108px;
+	border-color: #fff;
+	padding:0px;
+	background-color: #fff;	
+	position: relative;
+	top: 218px;
+	left: 455px;
+}
+
+.fa-star{
+	color: #fff;
+	font-size: 30px;
+	position: relative;
+	top: 200px;
+	left: 575px;
+}
+
+.second-line{
+	height: 6px;
+	width: 108px;
+	border-color: #fff;
+	padding:0px;
+	background-color: #fff;	
+	position: relative;
+	top: 182px;
+	left: 607px;
+}
+
+.skills{
+	font-family: Lato;
+	font-style: normal;
+	font-size: 28px;
+	font-weight: 300px;
+	color: #fff;
+	position: relative;
+	top: 220px;
+	left: 225px;
+}
+
+.text-center{
+	font-family: Montserrat;
+	style:normal;
+	font-size: 48px;
+	font-weight: bold;
+	color: #212529;
+	position: relative;
+	top: 30px;
+	left: 430px;
+}
+
+.star-light-black{
+	position: inline-block
+}
+
+.line-black{
+	height: 6px;
+	width: 108px;
+	border-color: #333C53;
+	padding:0px;
+	background-color: #333C53;	
+	position: relative;
+	top: 50px;
+	left: 450px;
+}
+
+.fa-star{
+	color: #333C53;
+	font-size: 30px;
+	position: relative;
+	padding: 0px;
+	top: 33px;
+	left: 565px;
+}
+
+
+.second-line-black{
+	height: 6px;
+	width: 108px;
+	border-color: #333C53;
+	padding:0px;
+	background-color: #333C53;
+	position: relative;
+	top: 16px;
+	left: 600px;
+}
+
+.galery {
+	
+}
+
+.cabin{
+	margin:0px; 
+	padding:0px;
+	height: 209px;
+	width: 289px;
+	position: relative;
+	top: 53px;
+	left: 110px;
+}
+
+.cake{ 
+	margin:0px; 
+	padding:0px;
+	height: 209px;
+	width: 289px;
+	position: relative;
+	top: 53px;
+	left: 140px;
+
+}
+
+.circus{
+	margin:0px; 
+	padding:0px;
+	height: 209px;
+	width: 289px;
+	position: relative;
+	top: 53px;
+	left: 170px;
+}
+
+.game{
+	margin:0px; 
+	padding:0px;
+	height: 209px;
+	width: 289px;
+	position: relative;
+	top:75px;
+	left: 110px;
+
+}
+
+.safe{
+	margin:0px; 
+	padding:0px;
+	height: 209px;
+	width: 289px;
+	position: relative;
+	top:75px;
+	left: 140px;
+}
+
+.submarine{
+	margin:0px; 
+	padding:0px;
+	height: 209px;
+	width: 289px;
+	position: relative;
+	top:75px;
+	left: 170px;
+}
+
+/* section about*/ 
+
+.about{
+	text-align: center;
+}
+
+.title{
+	font-family: Montserrat;
+	style:normal;
+	font-weight: bold;
+	font-size: 48px;
+	color: #fff;
+	position: relative;
+	top: 53px;
+	
+}
+
+
+.star-light{
+	position: inline-block
+}
+
+.line{
+	height: 6px;
+	width: 108px;
+	border-color: #fff;
+	padding:0px;
+	background-color: #fff;	
+	position: relative;
+	top: 75px;
+	left: 450px;
+}
+
+.fa-star{
+	color: #fff;
+	font-size: 33px;
+	position: relative;
+	top: 55px;
+	left: 5px;
+}
+
+.second-line{
+	height: 6px;
+	width: 108px;
+	border-color: #fff;
+	padding:0px;
+	background-color: #fff;	
+	position: relative;
+	top: 37px;
+	left: 607px;
+}
+
+.columns{
+
+	column-count: 2;
+	width: 550px;
+	 
+	text-align: left;
+	font-family: Lato;
+	style:normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: #fff;
+	line-height: 30px;
+	position: relative;
+	top: 86px;
+	left: 270px;
 }
 
 .portfolio{
